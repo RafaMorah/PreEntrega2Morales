@@ -170,7 +170,6 @@ footer {
   justify-self: center;
 }
 
-
 @media (max-width: 768px) {
   .body {
     padding: 1rem;
@@ -238,12 +237,12 @@ footer {
     width: 30rem;
     margin: auto;
   }
-  .container_clientes{
+  .container_clientes {
     width: 100%;
     justify-content: center;
     margin: auto;
   }
-  .container_clientes_div{
+  .container_clientes_div {
     text-align: center;
   }
   .logo-clientes {
@@ -251,4 +250,5 @@ footer {
     text-align: center;
     margin: auto;
     justify-content: center;
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass -watch acss:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
