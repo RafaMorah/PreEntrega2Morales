@@ -4,4 +4,31 @@
   box-sizing: border-box;
 }
 
+header {
+  font-family: "Montserrat", sans-serif;
+  background-color: #dedede;
+  text-align: center;
+  grid-area: header;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header ul li {
+  margin-right: auto;
+  margin-left: auto;
+  margin: auto;
+}
+header ul li a {
+  text-decoration: none;
+  color: #1b1212;
+}
+header ul li a:hover {
+  color: rgb(76, 141, 167);
+}
+
 /*# sourceMappingURL=style.css.map */
