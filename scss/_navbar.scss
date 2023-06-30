@@ -4,31 +4,40 @@ header {
   text-align: center;
   grid-area: header;
   width: 100%;
-  nav {
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    ul {
-      list-style: none;
-      display: flex;
+  margin: auto;
+  align-items: center;
 
-      li {
-        margin-right: auto;
-        margin-left: auto;
+  div {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+
+    nav {
+      height: 10vh;
+      width: 100%;
+      ul {
+        list-style: none;
+        display: flex;
         margin: auto;
+        justify-content: center;
+        li {
+          margin-top: auto;
+          margin-right: auto;
+          margin-left: auto;
+          margin: auto;
+          justify-content: space-between;
+          a {
+            text-decoration: none;
+            color: #1b1212;
 
-        a {
-          text-decoration: none;
-          color: #1b1212;
+            img {
+              width: 2rem;
+            }
 
-          &:hover {
-            color: rgb(76, 141, 167);
+            &:hover {
+              color: rgb(76, 141, 167);
+            }
           }
-        }
-        .logo {
-          width: 1rem;
         }
       }
     }
