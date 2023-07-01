@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile": "sass -watch acss:css"
+    "compile": "sass --watch scss:css"
   },
   "author": "",
   "license": "ISC",
